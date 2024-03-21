@@ -1,3 +1,10 @@
+body{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial",  sans-serif;
+  letter-spacing: 0.5px;
+}
+
 .site-header{
   background-color: #fff;
 }
@@ -26,6 +33,18 @@
   background-color: #000000;
   color: #fff;
 }
+.hero-heading{
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+
+  color: #FFFFFF;
+
+
+}
 .hero-img{
   width: 510px;
   height: 510px;
@@ -48,12 +67,6 @@
   width: 100px;
   height: 100px;
 
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
 }
 .hero-text{
 
@@ -65,47 +78,30 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-  letter-spacing: 0.5px;
-
   color: #FFFFFF;
-
-
 }
 .feature{
   width: 314px;
   height: 245px;
 }
 .feature-heading{
-
+  font-family: "Roboto Condensed";
   width: 214px;
   height: 29px;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 120%;
-
-  letter-spacing: 0.5px;
-
   color: #000000;
 }
 .feature-heading1{
-  width: 435px;
-  height: 172px;
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
   line-height: 120%;
   letter-spacing: 0.5px;
-  color: #000000;
-}
-.features-info{
-  width: 314px;
-  height: 72px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.5px;
+
   color: #000000;
 }
 .promo{
@@ -120,10 +116,7 @@
   font-size: 40px;
   line-height: 48px;
 }
-.promo-text{
-  font-style: 16px;
-  line-height: 1.5;
-}
+
 .promo-highlight{
   color: #FF7500;
 }
@@ -144,6 +137,7 @@
 }
 ..site-footer-links{
   width: 224px;
+  line-height: 19px;
 }
 .site-footer-links a {
   list-style-type: none;
