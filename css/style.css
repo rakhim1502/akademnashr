@@ -6,11 +6,22 @@ body{
 }
 
 .site-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #fff;
+}
+.site-header-action{
+  display: flex;
+  align-items: center;
+}
+.sitenav-list{
+  list-style: none;
+  display: flex;
 }
 
 .sitenav-link{
-
+  display: flex;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -32,6 +43,9 @@ body{
 .hero{
   background-color: #000000;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .hero-heading{
   font-family: 'Roboto Condensed';
@@ -59,7 +73,12 @@ body{
   top: 0px;
 
   background: #FF7500;
+}
 
+.features-list{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
 .features-icon{
   /* feature-icon */
@@ -104,10 +123,14 @@ body{
 
   color: #000000;
 }
+
+
 .promo{
   background-color: #252420;
   color: #fff;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .promo-content{
   width: 440px;
@@ -128,9 +151,22 @@ body{
 .site-footer{
   background-color: #f8f8f8;
 }
+.site-footer-socials{
+  display: flex;
+  align-items: center;
+}
+.site-footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .site-footer-divider{
   background-color: rgba(37, 36, 32, 0.5);
   height: 2px;
+}
+.site-footer-bottom{
+  display: flex;
+  justify-content: space-between;
 }
 .site-footer ul {
   list-style: none;
