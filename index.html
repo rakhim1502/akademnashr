@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&family=Roboto+Serif:ital,opsz,wdth,wght@0,8..144,50..150,700;1,8..144,50..150,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,10 +19,10 @@
     <div class="site-header-action">
       <nav>
         <ul class="sitenav-list">
-          <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-          <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-          <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-          <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+          <li class="sitenav-item" ><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+          <li class="sitenav-item" ><a class="sitenav-link" href="#">Kitoblar</a></li>
+          <li class="sitenav-item" ><a class="sitenav-link" href="#">Aksiyalar</a></li>
+          <li class="sitenav-item" ><a class="sitenav-link" href="#">Kontaktlar</a></li>
         </ul>
       </nav>
       <a class="main-link" href="#">Ro`yxatdan o`tish</a>
@@ -78,8 +79,10 @@
 
           <h2 class="promo-heading">Bolalar kitoblari uchun
             ajoyib aksiya!</h2>
-            <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-            <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong class="promo-highlight">350 ming so’m</strong>ga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+            <div class="promo-info-wrapper">
+              <div class="promo-info-wrapper"><p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+                <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong class="promo-highlight">350 ming so’m</strong>ga (aslida 383 ming so’m) sotib olishingiz mumkin.</p></div>
+            </div>
             <a class="main-link" href="#">Buyurtma berish</a>
           </div>
           <img class="promo-img" src="img/sale-img.jpg" alt="kitob" width="440" height="440">
